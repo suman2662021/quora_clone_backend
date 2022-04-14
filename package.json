@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -w src --exec \"babel-node src\""
+    "dev": "nodemon -w src --exec \"babel-node src\"",
+    "start": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
